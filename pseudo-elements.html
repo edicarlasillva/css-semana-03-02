@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    ul {
+      list-style: none;
+    }
+
+    .mark li::before {
+      content: "";
+      display: inline-block;
+      background-image: url('https://sonobel.com.br/assets/img/check_verde.png');
+      width: 10px;
+      height: 10px;
+      background-size: cover;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="mark">
+    <li>Café</li>
+    <li>Chá</li>
+  </ul>
+</body>
+
+</html>

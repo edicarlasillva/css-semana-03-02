@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    section {
+      width: 100%;
+    }
+
+    div~span {
+      color: white;
+    }
+
+    span {
+      background-color: red;
+      width: 600px;
+      height: 200px;
+      margin: 20px;
+      margin: 0px auto;
+
+    }
+
+    a:hover {
+      color: green;
+    }
+
+    p {
+      display: block
+    }
+
+    p::before {
+      display: block;
+      content: '';
+      width: 5px;
+      height: 5px;
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div></div>
+    <span>Conteúdo</span>
+    <span>Conteúdo 2</span>
+
+    <a href="">Leia-me</a>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo non nulla accumsan convallis.
+      Suspendisse maximus consectetur justo, quis euismod sapien porttitor eget.</p>
+  </section>
+</body>
+
+</html>
